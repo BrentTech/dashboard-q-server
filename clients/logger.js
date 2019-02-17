@@ -8,7 +8,7 @@ dbQueue.subscribe('delete', (payload) => {
   console.log('DELETE:', payload);
 });
 
-dbQueue.subscribe('delete', (payload) => {
+dbQueue.subscribe('create', (payload) => {
   console.log('CREATE:', payload);
 });
 
